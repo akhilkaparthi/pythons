@@ -1,0 +1,10 @@
+#this is first shell script
+print('Hello world')
+print('What is your name')
+myName=input()
+print('It is good to meet you' + myName)
+print('The length of your name is: ')
+print(len(myName))
+print('What is your aGE: ')
+myAge = input()
+print('you willbe ' + str(int(myAge)))
